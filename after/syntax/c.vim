@@ -292,9 +292,9 @@ hi def link cUserFunction cFunction
 hi def link cUserFunctionPointer cFunction
 
 "" Delimiters
-syn match cDelimiter    "[();\\]"
-syn match cBraces display "[{}]"
+"syn match cDelimiter    "[();\\]"
+"syn match cBraces display "[{}]"
 
 " Links
-hi def link cDelimiter Delimiter
-hi def link cBraces Delimiter
+"hi def link cDelimiter Delimiter
+"hi def link cBraces Delimiter
